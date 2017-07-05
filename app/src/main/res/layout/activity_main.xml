@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackgroundColor"
+    tools:context="com.example.android.musicalstructureproject.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/nowPlayingButton"
+        android:text="@string/category_nowPlaying"
+        style="@style/buttonStyle" />
+
+    <Button
+        android:id="@+id/songsLibraryButton"
+        android:text="@string/category_songsLibrary"
+        style="@style/buttonStyle"/>
+
+    <Button
+        android:id="@+id/searchMusicButton"
+        android:text="@string/category_searchMusic"
+        style="@style/buttonStyle"/>
+
+</LinearLayout>
+
+</RelativeLayout>

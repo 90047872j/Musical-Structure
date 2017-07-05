@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Musical Structure Project</string>
+    <string name="category_nowPlaying">Now Playing</string>
+    <string name="category_songsLibrary">Songs Library</string>
+    <string name="category_searchMusic">Search Music</string>
+    <string name="NowPlayingDescriptionText">In this Activity the user plays the music, it includes the playback controls and the song details.</string>
+    <string name="SongsLibarryDescriptionText">In this Activity the user access to his music library downloaded songs, search and click on to play them.</string>
+    <string name="SearchMusicDescriptionText">In this Activity the user can search for new music online.\nThis activity may include an explicit intent to <b>Google Play Store</b> music collection to purchase and download new music.</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_now_playing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructureproject.SearchMusicActivity">
+
+    <TextView
+        style="@style/descriptionTextStyle"
+        android:text="@string/SearchMusicDescriptionText" />
+
+</LinearLayout>
