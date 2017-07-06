@@ -8,6 +8,7 @@
     <dimen name="buttonPaddingLeftSize">30dp</dimen>
     <dimen name="buttonPaddingRightSize">30dp</dimen>
     <dimen name="buttonPaddingBottomSize">10dp</dimen>
-    <dimen name="buttonLayout_marginSize">10dp</dimen>
+    <dimen name="button_sidesMarginSize">2dp</dimen>
+    <dimen name="button_verticalMarginSize">4dp</dimen>
     <dimen name="descriptionTextPadding">10dp</dimen>
 </resources>

@@ -3,7 +3,10 @@
     <string name="category_nowPlaying">Now Playing</string>
     <string name="category_songsLibrary">Songs Library</string>
     <string name="category_searchMusic">Search Music</string>
-    <string name="NowPlayingDescriptionText">In this Activity the user plays the music, it includes the playback controls and the song details.</string>
-    <string name="SongsLibarryDescriptionText">In this Activity the user access to his music library downloaded songs, search and click on to play them.</string>
-    <string name="SearchMusicDescriptionText">In this Activity the user can search for new music online.\nThis activity may include an explicit intent to <b>Google Play Store</b> music collection to purchase and download new music.</string>
+    <string name="category_settings">Settings</string>
+    <string name="NowPlayingDescriptionText">MAIN SCREEN\n\nThis is the main screen activity where the current playing song is shown, it includes the operator player buttons and the song details, in this Acitivity can be used the MediaPlayer Android API.</string>
+    <string name="SongsLibraryDescriptionText">SONGS LIBRARY\n\nIn this Activity the user access to his music library downloaded songs, search and click on to play them.</string>
+    <string name="SearchMusicDescriptionText">SEARCH MUSIC\n\nIn this Activity the user can search for new music online through, for example, a client library for Google Music called gmusic.api.</string>
+    <string name="SettingsDescriptionText">SETTINGS\n\nIn this Activity the user can change the settings from the music player for example music source folder, customization settings, audio settings, etc</string>
+
 </resources>

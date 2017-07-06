@@ -5,11 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.musicalstructureproject.NowPlayingActivity">
+    tools:context="com.example.android.musicalstructureproject.SettingsActivity">
+
+    <include layout="@layout/buttons_layout" />
 
     <TextView
         style="@style/descriptionTextStyle"
-        android:text="@string/NowPlayingDescriptionText" />
+        android:text="@string/SettingsDescriptionText" />
 
 </LinearLayout>
 

@@ -5,25 +5,24 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="buttonStyle">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:textSize">@dimen/buttonTextSize</item>
-        <item name="android:paddingTop">@dimen/buttonPaddingTopSize</item>
-        <item name="android:paddingLeft">@dimen/buttonPaddingLeftSize</item>
-        <item name="android:paddingRight">@dimen/buttonPaddingRightSize</item>
-        <item name="android:paddingBottom">@dimen/buttonPaddingBottomSize</item>
-        <item name="android:layout_margin">@dimen/buttonLayout_marginSize</item>
-        <item name="android:textColor">@color/secondaryTextColor</item>
-        <item name="android:background">@color/colorPrimary</item>
-        <item name="android:layout_weight">1</item>
-    </style>
-
     <style name="descriptionTextStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/mainTextColor</item>
         <item name="android:padding">@dimen/descriptionTextPadding</item>
         <item name="android:textSize">@dimen/descriptionTextSize</item>
+    </style>
+
+    <style name="buttonBarStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginRight">@dimen/button_sidesMarginSize</item>
+        <item name="android:layout_marginLeft">@dimen/button_sidesMarginSize</item>
+        <item name="android:layout_marginTop">@dimen/button_verticalMarginSize</item>
+        <item name="android:layout_marginBottom">@dimen/button_verticalMarginSize</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:textSize">10sp</item>
     </style>
 </resources>

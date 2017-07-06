@@ -7,8 +7,10 @@
     android:orientation="vertical"
     tools:context="com.example.android.musicalstructureproject.SongsLibraryActivity">
 
+    <include layout="@layout/buttons_layout" />
+
     <TextView
         style="@style/descriptionTextStyle"
-        android:text="@string/SongsLibarryDescriptionText" />
+        android:text="@string/SongsLibraryDescriptionText" />
 
 </LinearLayout>

@@ -7,6 +7,8 @@
     android:orientation="vertical"
     tools:context="com.example.android.musicalstructureproject.SearchMusicActivity">
 
+    <include layout="@layout/buttons_layout" />
+
     <TextView
         style="@style/descriptionTextStyle"
         android:text="@string/SearchMusicDescriptionText" />
