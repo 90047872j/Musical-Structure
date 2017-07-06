@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context="com.example.android.musicalstructureproject.SettingsActivity">
 
-    <include layout="@layout/buttons_layout" />
+    <include layout="@layout/button_bar_layout" />
 
     <TextView
         style="@style/descriptionTextStyle"
